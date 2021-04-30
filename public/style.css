@@ -1,0 +1,349 @@
+
+.header{
+    background-image : linear-gradient(to bottom right, #A116EF , #390999);
+   border-radius: 0 0 0.9375rem 0.9375rem ;
+   /* min-height: 130px; */
+   min-height: 8.125rem;
+   width: 100vw;
+   
+}
+.nav-link:hover{
+    /* border-bottom: 2px solid rgb(226, 226, 35); */
+    border-bottom: 0.125rem solid rgb(226, 226, 35);
+    padding-bottom: -1px;
+    padding-bottom: 0.0625rem;
+    
+}
+#navbarSupportedContent a{
+    color:whitesmoke ;
+    margin-left: 2rem;
+}
+.navbar-logo{
+    /* width: 300px !important ;
+    height:100px  !important; */
+    width: 18.75rem !important;
+    height: 6.25rem !important;
+}
+.navbar-brand{
+    margin-left: 1.8rem;
+    border-bottom: none;
+}
+.home{
+    padding:3rem;
+    text-align: center;
+    
+}
+.link-div{
+    padding :auto ;
+    text-align: center;
+}
+@media screen and (max-width : 770px)
+{ 
+.navbar-link{
+    margin-bottom: 1rem ;
+}
+}
+/* @media screen and (max-width: 450px) */
+@media screen and (max-width: 450px)
+{ 
+    .navbar-logo{
+        /* width: 250px !important ;
+        height:80px  !important; */
+        width: 15.625rem !important ;
+        height:5rem !important;
+    }
+    .navbar-brand{
+        margin: auto;
+    }
+    .header{
+        /* border-radius: 0 0 10px 10px; */
+        border-radius: 0 0 0.625rem,0.625rem;
+    }
+}
+
+#home-nav {
+    border-bottom: 0.125rem solid rgb(226, 226, 35);
+}
+#login-nav{
+    border-bottom: 0.125rem solid rgb(226, 226, 35);
+}
+#none{
+    border-bottom: 0 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* LOGIN INPUTTTTTTT */
+.home{
+    margin: auto;
+}
+.login{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3.5%;
+    text-align: center;
+    background-color: rgb(235, 204, 234);
+    max-width: 31.25rem;   /*  500px ;*/
+    min-width:  18.75rem;   /*  300px;*/
+     height:  25rem;                /*  400px;*/
+     margin: auto;
+     border-radius: 1.5625rem;         /*  25px ;*/
+     margin-bottom: 10%;
+}
+.login-heading{
+    margin-bottom: 0.625rem;   /* 10px;   */
+}
+
+@media screen and (max-width : 390px){
+     .home{
+         padding: 3rem 0;   /*  48px 0;*/
+     }
+     .login{
+          width:70vw !important;
+     }
+}
+@media screen and (max-width : 480px){
+    .span-login{
+        display: block;
+    }
+}
+
+.login-input {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    border-radius: 1.5625rem;  /* 25px;*/
+    border:none;
+    box-shadow: 0.125rem  0.125rem 0.9375rem grey;     /*     2px 2px 15px grey;*/
+    width: 50%;
+    height: 10%;
+    border:none;
+}
+
+#login-button{
+    /* margin: 6% 2% 4%; */
+    background-color: darkviolet;
+    border-radius: 0.6875rem;  /*11px;*/
+    width: 8.25rem ;/*132px;*/
+    padding-bottom:0.625rem;/* 10px;*/
+}
+.why-choose-us{
+     padding: 5%;
+     text-align: center;
+     max-width: 43.75rem ;/* 700px*/ ;
+     min-width: 18.75rem ;/*300px;*/
+     min-height: 31.25rem ;/*500px;*/
+      margin: auto;
+}
+
+.logo{
+   margin-top: 10%;
+}
+.logo-fdiv{
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.logo-div{
+    position: relative;
+   
+   padding:auto;
+}
+.logo-ldiv{
+    margin: auto 0 auto 30%;
+}
+.outer-circle{
+    position: absolute;
+   top: 0;
+   left: 0;
+   color: hotpink;
+   border-radius: 100%;
+}
+.inner-logo{
+    color:royalblue;
+    position: absolute;
+    top:0.9375rem ;  /* 15px;*/
+    left:1.1875rem;  /* 19px;*/
+    border-radius: 100%;
+}
+.logo i{ 
+    border-radius: 100%;
+    border: 0.125rem solid hotpink;
+    float: left;
+
+}
+.why-choose-us-heading{
+    margin-bottom: 15% ;
+    color: hotpink;
+}
+.logo-title{
+    color: royalblue;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* HOME PAGE */
+
+
+
+.inner_div{
+    
+    padding-top: 1rem;
+}
+ .home_input{
+    margin: 4% 2% 2% 2%;
+    border-radius:1.5625rem;  /* 25px;*/
+    border:none;
+    box-shadow: 0.125rem  0.125rem 0.9375rem grey;
+    width: 20%;
+    min-width: 10rem;
+    height: 5rem;
+}
+
+.home_page i{
+  border-radius: 100%;
+  margin: 4% 0% 0% 0;
+}
+/* .login-input:focus{
+    border:none;
+   } */
+
+  /* .login-input:focus{
+    border:none !important;
+   } */
+
+
+
+
+
+
+/* FOOTERRRRRR */
+footer{
+    background-image: linear-gradient(to bottom right,#A116EF,#390999);
+       text-align: center;
+      position: relative;
+      margin-top:6.25rem;
+      font-size: 1rem;
+      max-height: 37.5rem !important;
+  }
+  .mx-2{
+    transition: transform 250ms !important;
+  }
+  .mx-2:hover{
+    color: grey !important;
+    transform: translateY(-0.125rem) !important;
+  }
+  .overlay{
+	width: 100%;
+  margin-bottom:auto;
+   margin-top: -1.25rem;
+   margin-bottom: -1.25rem;
+	color: #FFF;
+  font-size:1.25rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /* MAP */
+   .map{
+       margin: 1.65%;
+   }
+   .map-h2 {
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: 1.25rem;
+    padding-left: 0.625rem;
+    text-align: center;
+  }
+  
+  .google-map {
+    width: 100%;
+    height: 60vh;
+  }
+  
+  .pin {
+    display: flex;
+    align-items: center;
+    width: 11.25rem;
+    color: var(--main-blue);
+  }
+  
+  .pin-icon {
+    font-size: 4rem;
+  }
+  
+  .pin-text {
+    font-size: 1.3em;
+  }
+  
+  @media screen and (min-width: 799px) {
+    .google-map {
+      height: 80vh;
+    }
+  
+    .map-h2 {
+      font-size: 1.3rem;
+      font-weight: 400;
+    }
+  
+    .pin {
+      width: 15vw;
+    }
+  
+    .pin-icon {
+      font-size: 10vw;
+    }
+  }
+
+
+
+
