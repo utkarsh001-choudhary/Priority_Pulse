@@ -376,10 +376,10 @@
 #sidebar{
   position: fixed;
   width:200px;
-  height:100%;
-  background-color: hotpink;
+  height:40vh;
   
   transition: all 500ms linear;
+  z-index: 1;
 }
 .showit{
   left:0;
@@ -387,16 +387,11 @@
 .hideit{
   left:-200px;
 }
-#toggle-btn{
+#toggle_btn{
   position: absolute;
-  left:230px;
-  top:20px;
+  left:200px;
+  top:20px;  
 }
-
-
-
-
-
 
 
 /* .login-input:focus{
@@ -540,7 +535,7 @@ footer{
       z-index: 3;
   } */
   .main-wrapper {
-    height: 75vh;
+    height: 70vh;
     width:100%;
     margin: 20px 0;
     padding:4% 6%;
@@ -562,12 +557,9 @@ footer{
   }
   .search-input{
       font-size: 1.0em;
-    
     padding:1% 9%;
     border-radius: 20px;
     margin:2px -50px;
-    
-  
   }
   }
   .info-wrapper {
