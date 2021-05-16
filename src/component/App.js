@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import {
   BrowserRouter as Router,
@@ -9,6 +9,12 @@ import Home_Page from '../Home_Page';
 import Login_Page from '../Login_Page';
 
 function App() {
+  useEffect(()=>{
+    var token=localStorage.getItem("jwt");
+    console.log(token);
+
+  })
+ 
  return (
    <Router >
      <Switch>

@@ -16,16 +16,16 @@ const Footer = () => {
       <footer class="footer text-wrap text-break">
         <div className="container-fluid overlay">
           <div className="row">
-            <div className="col-md-4 col-sm-6 col-12 ml-auto mx-auto my-auto">
+            <div className="col-md-4 col-sm-6 col-12 ml-auto mx-auto my-auto footer-logo">
               <img
                 className="img-fluid mx-auto my-auto"
                 src={logo}
                 alt="priority_pulse logo"
-                width="900"
+                width="1000"
                 height="600"
               />
             </div>
-            <div className="col-md-4 col-sm-6 col-12 ml-auto mx-3 pt-4 px-3">
+            <div className="col-md-5 col-sm-12 col-12 ml-auto mx-3 pt-4 px-3 ">
               <a className="text-white mx-2 " href="#">
                 <FacebookIcon fontSize="large" />
               </a>

@@ -1,8 +1,6 @@
-import React, { useState } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
+ import React, { useState } from 'react';
+ import 'bootstrap/dist/css/bootstrap.min.css';
  import { Link } from "react-router-dom";
- import MenuItems from './Menu_items';
-//  import Logo from './Images/Logo.jpg';
 import Logo from '../image/Website Logo.png'
 function Header({ID}){
     const [state,setState] = useState(false);
@@ -21,7 +19,6 @@ function Header({ID}){
        <ul className="navbar-nav ml-auto">
            <li className="nav-item" >
              <div className="link-div"   >
-              
              <Link className="nav-link" id={ ID=== "home"? "home-nav": "none"} exact to={'/'} >Home</Link>
              </div>
            </li>
